@@ -39,7 +39,7 @@ const FormPage: React.FC = () => {
             error={errors}
           />
 
-          <input type="submit" value={t("submit")} />
+          <input type="submit" value={`${t("submit")}`} />
         </form>
       </main>
     </div>
