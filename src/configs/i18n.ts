@@ -7,11 +7,21 @@ const resources = {
   en: {
     translation: {
       msg: "hello world",
+      firstName: "first name",
+      lastName: "last name",
+      fistNameLabel: "@:firstName",
+      lastNameLabel: "@:lastName",
+      submit: "submit",
     },
   },
   kr: {
     translation: {
       msg: "안녕하세요",
+      firstName: "실제 이름",
+      lastName: "성",
+      fistNameLabel: "@:firstName",
+      lastNameLabel: "@:lastName",
+      submit: "제출",
     },
   },
 };
